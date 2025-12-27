@@ -1,0 +1,107 @@
+import { Code2, ExternalLink, Github } from "lucide-react";
+import { GlassContainer } from "../styles/GlassContainer";
+import {
+  Description,
+  Grid,
+  LinkGroup,
+  ProjectTitle,
+  SectionTitle,
+  SectionWrapper,
+  StyledLink,
+  Tag,
+  TagGroup,
+} from "../styles/GridContainer";
+import { Container } from "../styles/LayoutContainer";
+
+function Projects() {
+  return (
+    <SectionWrapper id="projects">
+      <Container>
+        <SectionTitle>
+          Engineered <span>Systems</span>
+        </SectionTitle>
+        <Grid>
+          <GlassContainer>
+            <ProjectTitle>
+              <Code2 size={24} color="#10b981" /> Zenith
+            </ProjectTitle>
+            <Description>
+              High-performance fintech dashboard with complex Redux state
+              orchestration and real-time data visualization.
+            </Description>
+            <TagGroup>
+              <Tag>Redux Toolkit</Tag>
+              <Tag>Styled Components</Tag>
+              <Tag>Recharts</Tag>
+            </TagGroup>
+            <LinkGroup>
+              <StyledLink
+                href="https://zenith-phi-ivory.vercel.app/"
+                target="_blank"
+              >
+                <ExternalLink size={16} /> Live
+              </StyledLink>
+              <StyledLink href="https://github.com/Jhay0617" target="_blank">
+                <Github size={16} /> Code
+              </StyledLink>
+            </LinkGroup>
+          </GlassContainer>
+
+          <GlassContainer>
+            <ProjectTitle>
+              <Code2 size={24} color="#10b981" /> Minimalist Store
+            </ProjectTitle>
+            <Description>
+              Advanced e-commerce engine focusing on price reconciliation and
+              inventory management via centralized state.
+            </Description>
+            <TagGroup>
+              <Tag>Redux</Tag>
+              <Tag>React Router</Tag>
+              <Tag>Figma-to-Code</Tag>
+            </TagGroup>
+            <LinkGroup>
+              <StyledLink
+                href="https://minimalist-ecommerce-v3.vercel.app/"
+                target="_blank"
+              >
+                <ExternalLink size={16} /> Live
+              </StyledLink>
+              <StyledLink href="https://github.com/Jhay0617" target="_blank">
+                <Github size={16} /> Code
+              </StyledLink>
+            </LinkGroup>
+          </GlassContainer>
+
+          <GlassContainer>
+            <ProjectTitle>
+              <Code2 size={24} color="#10b981" /> THE EDIT
+            </ProjectTitle>
+            <Description>
+              Architectural demo of modern server-state handling. Featuring
+              asynchronous updates, cache invalidation, and cloud sync.
+            </Description>
+            <TagGroup>
+              <Tag>TanStack Query</Tag>
+              <Tag>Supabase</Tag>
+              <Tag>Sonner</Tag>
+            </TagGroup>
+            <LinkGroup>
+              <StyledLink
+                href="https://the-edit-ecru.vercel.app/"
+                target="_blank"
+              >
+                <ExternalLink size={16} /> Live
+              </StyledLink>
+              <StyledLink href="https://github.com/Jhay0617" target="_blank">
+                <Github size={16} /> Code
+              </StyledLink>
+            </LinkGroup>
+          </GlassContainer>
+        </Grid>
+      </Container>
+    </SectionWrapper>
+  );
+}
+
+export default Projects;
