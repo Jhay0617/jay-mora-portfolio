@@ -41,7 +41,10 @@ function Projects() {
               >
                 <ExternalLink size={16} /> Live
               </StyledLink>
-              <StyledLink href="https://github.com/Jhay0617" target="_blank">
+              <StyledLink
+                href="https://github.com/Jhay0617/Zenith"
+                target="_blank"
+              >
                 <Github size={16} /> Code
               </StyledLink>
             </LinkGroup>
@@ -67,7 +70,10 @@ function Projects() {
               >
                 <ExternalLink size={16} /> Live
               </StyledLink>
-              <StyledLink href="https://github.com/Jhay0617" target="_blank">
+              <StyledLink
+                href="https://github.com/Jhay0617/minimalist-ecommerce-v3-theuglystorev3-"
+                target="_blank"
+              >
                 <Github size={16} /> Code
               </StyledLink>
             </LinkGroup>
@@ -93,7 +99,42 @@ function Projects() {
               >
                 <ExternalLink size={16} /> Live
               </StyledLink>
-              <StyledLink href="https://github.com/Jhay0617" target="_blank">
+              <StyledLink
+                href="https://github.com/Jhay0617/the-edit"
+                target="_blank"
+              >
+                <Github size={16} /> Code
+              </StyledLink>
+            </LinkGroup>
+          </GlassContainer>
+          <GlassContainer>
+            <ProjectTitle>
+              <Code2 size={24} color="#10b981" /> Nexus Finance
+            </ProjectTitle>
+            <Description>
+              Nexus Finance v3 is a robust, full-stack financial management
+              application built on a PostgreSQL core. It implements real-time,
+              database-level security checks to enforce business rules
+              atomically, ensuring that no account balance can fall below zero,
+              regardless of the API input.
+            </Description>
+            <TagGroup>
+              <Tag>TanStack Query</Tag>
+              <Tag>Supabase</Tag>
+              <Tag>Sonner</Tag>
+              <Tag>PostgreSQL</Tag>
+            </TagGroup>
+            <LinkGroup>
+              <StyledLink
+                href="https://nexus-finance-v3.vercel.app/"
+                target="_blank"
+              >
+                <ExternalLink size={16} /> Live
+              </StyledLink>
+              <StyledLink
+                href="https://github.com/Jhay0617/nexus-finance-v3"
+                target="_blank"
+              >
                 <Github size={16} /> Code
               </StyledLink>
             </LinkGroup>
