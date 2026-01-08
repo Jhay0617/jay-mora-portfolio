@@ -19,11 +19,11 @@ export const Grid = styled.div`
   padding: 1rem;
 
   @media (min-width: ${({ theme }) => theme.breakpoints.tablet}) {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
   }
 
   @media (min-width: ${({ theme }) => theme.breakpoints.laptop}) {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 1fr 1fr;
   }
 `;
 

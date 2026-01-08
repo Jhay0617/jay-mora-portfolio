@@ -23,35 +23,6 @@ function Projects() {
         <Grid>
           <GlassContainer>
             <ProjectTitle>
-              <Code2 size={24} color="#10b981" /> Zenith
-            </ProjectTitle>
-            <Description>
-              High-performance fintech dashboard with complex Redux state
-              orchestration and real-time data visualization.
-            </Description>
-            <TagGroup>
-              <Tag>Redux Toolkit</Tag>
-              <Tag>Styled Components</Tag>
-              <Tag>Recharts</Tag>
-            </TagGroup>
-            <LinkGroup>
-              <StyledLink
-                href="https://zenith-phi-ivory.vercel.app/"
-                target="_blank"
-              >
-                <ExternalLink size={16} /> Live
-              </StyledLink>
-              <StyledLink
-                href="https://github.com/Jhay0617/Zenith"
-                target="_blank"
-              >
-                <Github size={16} /> Code
-              </StyledLink>
-            </LinkGroup>
-          </GlassContainer>
-
-          <GlassContainer>
-            <ProjectTitle>
               <Code2 size={24} color="#10b981" /> Minimalist Store
             </ProjectTitle>
             <Description>
@@ -81,34 +52,6 @@ function Projects() {
 
           <GlassContainer>
             <ProjectTitle>
-              <Code2 size={24} color="#10b981" /> THE EDIT
-            </ProjectTitle>
-            <Description>
-              Architectural demo of modern server-state handling. Featuring
-              asynchronous updates, cache invalidation, and cloud sync.
-            </Description>
-            <TagGroup>
-              <Tag>TanStack Query</Tag>
-              <Tag>Supabase</Tag>
-              <Tag>Sonner</Tag>
-            </TagGroup>
-            <LinkGroup>
-              <StyledLink
-                href="https://the-edit-ecru.vercel.app/"
-                target="_blank"
-              >
-                <ExternalLink size={16} /> Live
-              </StyledLink>
-              <StyledLink
-                href="https://github.com/Jhay0617/the-edit"
-                target="_blank"
-              >
-                <Github size={16} /> Code
-              </StyledLink>
-            </LinkGroup>
-          </GlassContainer>
-          <GlassContainer>
-            <ProjectTitle>
               <Code2 size={24} color="#10b981" /> Nexus Finance
             </ProjectTitle>
             <Description>
@@ -133,6 +76,37 @@ function Projects() {
               </StyledLink>
               <StyledLink
                 href="https://github.com/Jhay0617/nexus-finance-v3"
+                target="_blank"
+              >
+                <Github size={16} /> Code
+              </StyledLink>
+            </LinkGroup>
+          </GlassContainer>
+          <GlassContainer>
+            <ProjectTitle>
+              <Code2 size={24} color="#10b981" /> Apex Crypto Dashboard
+            </ProjectTitle>
+            <Description>
+              The Apex Dashboard is a real-time financial dashboard providing
+              users with live price tracking, personalized watchlists, and
+              dynamic asset analysis. Developed to modern 2026 standards, it
+              prioritizes performance, accessibility, and intuitive UX design
+              across all screen sizes.
+            </Description>
+            <TagGroup>
+              <Tag>TanStack Query</Tag>
+              <Tag>Redux</Tag>
+              <Tag>Sonner</Tag>
+            </TagGroup>
+            <LinkGroup>
+              <StyledLink
+                href="https://apex-crypto-dashboard.vercel.app/"
+                target="_blank"
+              >
+                <ExternalLink size={16} /> Live
+              </StyledLink>
+              <StyledLink
+                href="https://github.com/Jhay0617/apex-crypto-dashboard"
                 target="_blank"
               >
                 <Github size={16} /> Code
